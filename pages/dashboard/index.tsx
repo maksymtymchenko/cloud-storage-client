@@ -1,13 +1,12 @@
 import { GetServerSidePropsContext, NextPage } from "next";
 import { checkAuth } from "@/utils/checkAuth";
-import React, { useContext } from "react";
+import React from "react";
 import { Layout } from "@/layouts/Layout";
 
 import * as Api from "@/api";
 import { FileItem } from "@/api/dto/files.dto";
 import { DashboardLayout } from "@/layouts/DashboardLayout";
 import { Files } from "@/modules/Files";
-import { UserContext } from "@/pages/_app";
 
 interface Props {
   items: FileItem[];

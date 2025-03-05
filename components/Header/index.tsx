@@ -48,7 +48,7 @@ export const Header: React.FC = () => {
               </Button>
             }
           >
-            <Avatar>A</Avatar>
+            <Avatar>MT</Avatar>
           </Popover>
         </div>
       </div>
