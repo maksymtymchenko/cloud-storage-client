@@ -2,7 +2,6 @@ import { GetServerSidePropsContext, NextPage } from "next";
 import { Button } from "antd";
 import React from "react";
 import { User } from "@/api/dto/auth.dto";
-import styles from "@/styles/Profile.module.scss";
 import { checkAuth } from "@/utils/checkAuth";
 import * as Api from "@/api";
 import { Layout } from "@/layouts/Layout";
@@ -21,7 +20,7 @@ const DashboardProfilePage: NextPage<Props> & { getLayout?: (page: React.ReactNo
 
   return (
     <main>
-      <div className={styles.root}>
+      <div style={{margin: 60}}>
         <h1>My profile</h1>
         <br />
         <p>

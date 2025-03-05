@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Header } from "@/components/Header";
-import styles from "@/styles/Home.module.scss";
+import styles from "./DashboardLayout.module.scss";
 
 interface LayoutProps {
   title: string;

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/Home.module.scss";
+import styles from "./UploadButton.module.scss";
 import { Button, Upload, UploadFile, notification } from "antd";
 import { CloudUploadOutlined } from "@ant-design/icons";
 

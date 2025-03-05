@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { Menu } from "antd";
 import { DeleteOutlined, FileImageOutlined, FileOutlined } from "@ant-design/icons";
 import { UploadButton } from "@/components/UploadButton";
-import styles from "@/styles/Home.module.scss";
+import styles from "./DashboardLayout.module.scss";
 
 
 export const DashboardLayout: React.FC<React.PropsWithChildren> = ({children}) => {
